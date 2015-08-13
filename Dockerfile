@@ -12,4 +12,4 @@ RUN echo "[global]" >~/.pip/pip.conf
 
 RUN echo "index-url = " >>~/.pip/pip.conf
 
-RUN pip install svn+
+RUN pip install svn+http://pyv8.googlecode.com/svn/trunk/#egg=pyv8-1.0-dev
