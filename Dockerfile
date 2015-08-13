@@ -4,7 +4,7 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.sohu.com/' /etc/apt/sources.list
 
 RUN apt-get update
 
-RUN apt-get install subversion python-pip libboost-python1.54-dev libboost-thread1.54-dev libboost-system1.54-dev -y
+RUN apt-get install subversion python-pip libboost-python-dev libboost-thread-dev libboost-system-dev -y
 
 RUN mkdir ~/.pip
 
